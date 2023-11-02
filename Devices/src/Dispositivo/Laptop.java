@@ -6,13 +6,13 @@ public class Laptop extends DispositivoCasa {
     }
 
     @Override
-    public void mostrarFoto(String foto) {
-        System.out.println("Mostrando foto en " + nombre + " con tamaño de pantalla " + tamañoPantalla + ": " + foto);
+    public void mostrarImagen(String foto) {
+        System.out.println("Mostrando foto en " + nombre + " con tamaño de pantalla " + resolucionPantalla + ": " + foto);
     }
 
     @Override
-    public void ajustarTamañoFoto(int tamaño) {
-        tamañoPantalla = tamaño;
+    public void ajustarVolumen(int tamaño) {
+    	resolucionPantalla = tamaño;
         System.out.println("Ajustando tamaño de pantalla en " + nombre + " a " + tamaño);
     }
 }
